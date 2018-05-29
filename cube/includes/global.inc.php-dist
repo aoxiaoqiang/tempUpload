@@ -1,0 +1,26 @@
+<?php
+/**
+ * CubeCart v6
+ * ========================================
+ * CubeCart is a registered trade mark of CubeCart Limited
+ * Copyright CubeCart Limited 2014. All rights reserved.
+ * UK Private Limited Company No. 5323904
+ * ========================================
+ * Web:   http://www.cubecart.com
+ * Email:  sales@cubecart.com
+ * License:  GPL-3.0 https://www.gnu.org/licenses/quick-guide-gplv3.html
+ */
+$glob['dbdatabase'] 	= '';			// Database name e.g. cubecart 
+$glob['dbhost'] 		= '';			// Database server hostname e.g. localhost (Can be domain or ip address)
+$glob['dbprefix'] 		= '';			// Table prefix e.g. store_1_ (handy for multiple stores in one database)
+$glob['dbport'] 		= '';			// Database server port (e.g. 3306). This can be left empty.
+$glob['dbsocket'] 		= '';			// Database server socket (e.g. /var/mysql/mysql.sock). This can be left empty.
+$glob['dbusername'] 	= '';			// Username that has access to the database
+$glob['dbpassword'] 	= '';			// Password for username above.
+$glob['installed'] 		= '0';			// Set to 1 if store is installed. Prevents setup redirect.
+$glob['adminFolder'] 	= 'admin';		// Change this if you have changed the admin folder name
+$glob['adminFile'] 		= 'admin.php';	// Change this if you have changed the admin file name
+$glob['cache'] 			= 'file';		// Cache in use can be (apc, file, memcache, memcached, redis, xcache) 
+$glob['session_save_path'] = '';		// Set your own session save path (please note that a shell script may be required for garbage collection) https://stackoverflow.com/questions/654310/cleanup-php-session-files
+$glob['safe_mode'] = false;		        // Set to true to disable hooks and code snippets, 'hooks' to disable code hooks and 'snippets' to disable code snippets
+?>
